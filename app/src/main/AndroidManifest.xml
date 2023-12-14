@@ -26,6 +26,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TopCompanyActivity"/>
+        <activity android:name=".JobActivity"/>
+        <activity android:name=".CenterActivity"/>
     </application>
 
 </manifest>

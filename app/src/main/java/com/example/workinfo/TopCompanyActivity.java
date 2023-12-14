@@ -40,9 +40,36 @@ public class TopCompanyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_topcompany);
         CSVParser csvParser = new CSVParser();
+
+        tableLayout = (TableLayout) findViewById(R.id.tablelayout);
+
         try {
             companyList = csvParser.getcompanyList(TopCompanyActivity.this);
-            companyList.size();
+
+            for (int i = 0; i < companyList.size(); i++) {
+                TableRow tableRow = new TableRow(this);
+
+                tableRow.setLayoutParams(new TableRow.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
+                ));
+
+                TextView text= new TextView(this);
+                text.setText(companyList.get(i).getSize());
+                text.setTextSize(15);
+                text.setGravity(Gravity.CENTER);
+
+                TextView text2= new TextView(this);
+                text2.setText(companyList.get(i).getName());
+                text2.setTextSize(15);
+                text2.setGravity(Gravity.CENTER);
+
+                tableRow.addView(text);
+                tableRow.addView(text2);
+
+                tableLayout.addView(tableRow);
+            }
+
         }
         catch (IOException e){
             throw new RuntimeException(e);

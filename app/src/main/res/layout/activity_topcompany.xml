@@ -14,23 +14,6 @@
      <TableRow
          android:layout_width="match_parent"
          android:layout_height="wrap_content">
-         <TextView
-             android:id="@+id/companySize"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:gravity="center"
-             android:text="기업규모"
-             android:textSize="36sp"
-             />
-         <TextView
-             android:id="@+id/companyName"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:gravity="center"
-             android:text="이름"
-             android:textSize="36sp"
-             />
-
      </TableRow>
  </TableLayout>
 
