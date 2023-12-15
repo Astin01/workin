@@ -1,9 +1,10 @@
 # Work In
 ---
 ## 소개
-<img src="img/splash.png"  width="700" height="370">
-<img src="img/title.png"  width="700" height="370">
-취업자 통계와 우수기업을 볼 수 있는 앱
+### 취업자 통계와 우수기업을 볼 수 있는 앱
+![img_4.png](img/splash.png)
+![img_5.png](img/title.png)
+
 ## 기능
 
 ### 우수기업 조회
