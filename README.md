@@ -10,10 +10,9 @@
 ### 우수기업 조회
 ![img_1.png](img/topcompany.png)
 ### 취업자 통계
-![img_2.png](img/center.png)
-### 문의
 ![img_3.png](img/job.png)
-
+### 문의
+![img_2.png](img/center.png)
 ## 참조
 
 https://arvigoes.tistory.com/101
