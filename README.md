@@ -1,12 +1,19 @@
 # Work In
 ---
 ## 소개
+![img.png](img/splash.png) ![img/title.png](img/title.png)
 취업자 통계와 우수기업을 볼 수 있는 앱
 ## 기능
+
+![img_5.png](img_5.png)
 - 우수기업 조회
+![img_1.png](img/topcompany.png)
 - 취업자 통계
+![img_2.png](img/center.png)
 - 문의
+![img_3.png](img/job.png)
 ## 참조
+
 https://arvigoes.tistory.com/101
 
 https://aries574.tistory.com/243
